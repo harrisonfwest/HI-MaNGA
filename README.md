@@ -15,3 +15,6 @@ from scipy import stats
 import matplotlib.pyplot as plt
 %matplotlib inline
 ```
+
+The original fits image of the HI-MaNGA data is in the file `HI-MaNGA_base.fits`.
+The counter rotating galaxy data is found in the file `sampgal_misalign_final.fits`.
