@@ -22,3 +22,6 @@ The counter rotating galaxy data is found in the file `sampgal_misalign_final.fi
 
 A previous rendition of this work is found in the Jupyter Notebook titled `mass-fraction-graphing.ipynb`, but I am
 currently in the process of redoing this work in `HI-MaNGA_MisalignmendAndDeficiency.ipynb`
+
+The survival analysis code used (`survival_analysis.py`) is from David Stark at the STScI, from
+his repository https://github.com/dvstark/survival 
