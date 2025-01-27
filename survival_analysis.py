@@ -10,10 +10,12 @@ from rpy2.robjects.packages import importr
 
 def setup():
 
-    '''Run this routine once to install the R packages needed for the
+    '''
+    Run this routine once to install the R packages needed for the
     routines in this package. You may get a warning message about a library
     not being writable, and an option to use a private library. Go ahead and say 
-    "yes" and this should all work'''
+    "yes" and this should all work
+    '''
 
     # import standard packages
     utils = importr('utils')
@@ -22,7 +24,7 @@ def setup():
     # import those packages needed for the survival analysis codes
     packages = ['survival', 'NADA', 'stats']
     for p in packages:
-        utils.install_packages(p)
+        utils.install_packages(p, "http://cran.us.r-project.org")
     
 
 def run_ats_r(datafile):
