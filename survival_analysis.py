@@ -24,7 +24,8 @@ def setup():
     # import those packages needed for the survival analysis codes
     packages = ['survival', 'NADA', 'stats']
     for p in packages:
-        utils.install_packages(p, contriburl = "https://cran.r-project.org/package=" + p)
+        #utils.install_packages(p, source = "https://cran.r-project.org/" + p)
+        utils.install_packages(p, repos = "http://cran.us.r-project.org")
 
 def run_ats_r(datafile):
 
