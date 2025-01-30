@@ -1,5 +1,5 @@
 # HI-MaNGA
-Investigating correlation of misalignment between galaxies' non-ionized ('cold') hydrogen gas and stellar disks, and their cold hydrogen gas deficiencies
+Investigating correlation of misalignment between galaxies' non-ionized ('cold') hydrogen gas discs and their stellar disks, and their cold hydrogen gas deficiencies
 
 Most of this work requires the following Python libraries:
 
