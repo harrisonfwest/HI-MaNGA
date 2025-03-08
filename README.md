@@ -21,7 +21,9 @@ import matplotlib.pyplot as plt
 
 The original fits image of the HI-MaNGA data is in the file `HI-MaNGA_base.fits`.
 The counter rotating galaxy data is found in the file `sampgal_misalign_final.fits`.
-`HI-MaNGA_with-MA.fits` combines the two, and is the file that will actually be used to analyze the data.
+`HI-MaNGA_with-MA.fits` combines the two, and is the file that will actually be used to analyze the data. This file
+is found in the `Data` sub-directory, along with `.npy` files of the results of running certain statistical methods on
+the data later in the notebook.
 
 A previous rendition of this work is found in the Jupyter Notebook titled `mass-fraction-graphing.ipynb`, but I am
 currently in the process of redoing this work in the updated `HI-MaNGA_MisalignmendAndDeficiency.ipynb`
