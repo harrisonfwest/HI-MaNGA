@@ -3,7 +3,7 @@ Investigating correlation of misalignment between galaxies' non-ionized ('cold')
 
 A running to-do list of tasks I hope to accomplish is in `TODO.md`
 
-Most of this work requires the following Python libraries:
+This work requires the following Python libraries, which are imported in the beginning of the Jupyter notebook:
 
 ```
 import numpy as np
@@ -23,10 +23,10 @@ The counter rotating galaxy data is found in the file `sampgal_misalign_final.fi
 `HI-MaNGA_with-MA.fits` combines the two, and is the file that will actually be used to analyze the data.
 
 A previous rendition of this work is found in the Jupyter Notebook titled `mass-fraction-graphing.ipynb`, but I am
-currently in the process of redoing this work in `HI-MaNGA_MisalignmendAndDeficiency.ipynb`
+currently in the process of redoing this work in the updated `HI-MaNGA_MisalignmendAndDeficiency.ipynb`
 
 The survival analysis code used (`survival_analysis.py`) is from David Stark at the STScI, found in
 his repository https://github.com/dvstark/survival. This repository also contains an example of the code's usage,
 which has been copied and slightly modified here as `survival_analysis_example.ipynb`. Many thanks to David Stark for
-providing this code, which imports survival analysis based in R Statistical Software, and for Karen Masters for
-referring me to his repository.
+providing this code, which imports survival analysis based in R Statistical Software into Python, and for Karen Masters
+for broader research guidance as well as for referring me to David's repository.
