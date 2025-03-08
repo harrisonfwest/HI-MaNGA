@@ -1,5 +1,6 @@
 # HI-MaNGA
-Investigating correlation of misalignment between galaxies' non-ionized ('cold') hydrogen gas discs and their stellar disks, and their cold hydrogen gas deficiencies
+Investigating correlation of misalignment between galaxies' non-ionized ('cold') hydrogen gas discs and their stellar disks,
+and their cold hydrogen gas deficiencies
 
 A running to-do list of tasks I hope to accomplish is in `TODO.md`
 
