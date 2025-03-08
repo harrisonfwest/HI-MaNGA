@@ -1,7 +1,4 @@
 Running To-do list:
-1. Store data from survival analysis cell in an external file to avoid having to run the 5+ minute cell every 
-time the notebook is restarted. To do this:
-        dataToStore = [a, b, c, ..., z]
-        np.save('dataFileName.npy', dataToStore)
-        ...
-        loadedData = np.load('dataFileName.npy')
+1. Implement Kaplan-Meier statistical test from Stark code
+2. sSFR from pipe3D: investigate sSFR vs. HI deficiency
+3. Stark documentation
