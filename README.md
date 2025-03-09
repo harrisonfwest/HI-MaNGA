@@ -29,11 +29,11 @@ A running to-do list of tasks I hope to accomplish can be found in `TODO.md`.
 
 The original fits image of the HI-MaNGA data is in `HI-MaNGA_base.fits`, while the counter rotating galaxy 
 data from [Zhou et. al (2022)](https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.5081Z/abstract) can be found in
-`sampgal_misalign_final.fits`. Using the [TOPCAT software](https://www.star.bris.ac.uk/~mbt/topcat/), I matched these
-tables based their on `MaNGA ID` columns to create `HI-MaNGA_with-MA.fits`, which combines the two, and is the file that
-is actually used to analyze the data. This file can be found in the `Data` sub-directory, along with `.npy` files of the 
-results of running certain statistical methods on the data later in the notebook to avoid redundantly re-running notebook 
-cells with excessively long runtimes.
+`sampgal_misalign_final.fits`. Using the [TOPCAT software](https://www.star.bris.ac.uk/~mbt/topcat/), I combined these
+tables by matching their on `MaNGA ID` columns to create `HI-MaNGA_with-MA.fits`, which is the file that is actually 
+used to analyze the data. This file can be found in the `Data` subdirectory, along with `.npy` files of the results of 
+running certain statistical methods on the data later in the notebook to avoid redundantly re-running notebook cells 
+with excessively long runtimes.
 
 The survival analysis code used (`survival_analysis.py`) is from [the repository of David Stark](https://github.com/dvstark/survival) 
 at the Space Telescope Science Institute (STScI). My repository contains an example of this code's usage: the code
