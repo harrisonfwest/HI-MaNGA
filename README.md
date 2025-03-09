@@ -21,9 +21,8 @@ make decisive claims about the behavior of these galaxies, since our already sma
 statistical issues. The implementation of survival analysis and other statistical methods are used to attempt to remedy
 this, though there are elements of this that I am yet to complete as of March 9, 2025 (the time of writing). 
 
-This project has been compiled into a [Jupyter notebook](https://github.com/harrisonfwest/HI-MaNGA/blob/main/HI-MaNGA_MisalignmentAndDeficiency.ipynb) 
-titled `HI-MaNGA_MisalignmentAndDeficiency.ipynb`. This notebook provides a step-by-step description of the project's 
-development, starting from importing the data to selecting rows of table data from which to make plots, and so on.
+I have compiled my work on this project into the Jupyter notebook titled `HI-MaNGA_MisalignmentAndDeficiency.ipynb`.
+This notebook provides a step-by-step description of my work.
 
 A running to-do list of tasks I hope to accomplish can be found in `TODO.md`.
 
