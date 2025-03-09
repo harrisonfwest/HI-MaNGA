@@ -5,3 +5,5 @@ sSFR data from MaNGA's pipe3D: https://www.sdss4.org/dr17/manga/manga-data/manga
 3. Create clear documentation for the implementation and usage of David Stark's statistical code wrapper. Some challenges
 that arise with this code are the installation of R dependencies on the system and the references made to online 
 sources for the R software being implemented.
+4. Re-read Zhou et al. 2022 to understand the misaligned sample
+5. Understand survival analysis and Kaplan-Meier tests from a statistical viewpoint
