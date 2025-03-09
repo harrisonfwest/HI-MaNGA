@@ -1,35 +1,24 @@
 # HI-MaNGA
 
 This repository houses my work with Haverford College Professor of Physics and Astronomy Karen Masters investigating a 
-correlation between galaxy misalignment and HI concentration. Galaxy misalignment describes a difference in the position 
+correlation between galaxy misalignment and HI concentration in the SDSS-IV/MaNGA survey. Galaxy misalignment describes a difference in the position 
 angles of a galaxy's stellar and gas discs, which can range from 0 degrees (well-aligned) to 180 degrees (counter-rotating), 
 and HI concentration describes how much non-ionized ('cold') hydrogen gas is present in a galaxy compared to the 
 expected (average) amount at the galaxy's given stellar mass. HI mass is particularly easy to detect due to its distinct
-21 cm spectral emission line. 
+21 cm spectral emission line, meaning that we are able to gather relatively abundant data for the HI concentrations of
+galaxies up to significant redshifts.
+
+More information about he MaNGA (Mapping Nearby Galaxies at Apache Point Observatory) survey, part of the Sloan Digital
+Sky Survey, can be found on the [MaNGA section of the SDSS website](https://www.sdss4.org/surveys/manga/).
 
 A running to-do list of tasks I hope to accomplish can be found in `TODO.md`.
 
-This work requires the following Python libraries, which are imported in the beginning of the Jupyter notebook:
-
-```
-import numpy as np
-from astropy.io import fits
-from astropy.table import Table
-from matplotlib.colors import LogNorm
-import scipy
-from scipy import stats
-from survival_analysis import survival, ats_fit, kaplan_meier
-
-# Set up matplotlib
-import matplotlib.pyplot as plt
-%matplotlib inline
-```
-
-The original fits image of the HI-MaNGA data is in the file `HI-MaNGA_base.fits`.
-The counter rotating galaxy data is found in the file `sampgal_misalign_final.fits`.
-`HI-MaNGA_with-MA.fits` combines the two, and is the file that will actually be used to analyze the data. This file
-is found in the `Data` sub-directory, along with `.npy` files of the results of running certain statistical methods on
-the data later in the notebook.
+The original fits image of the HI-MaNGA data is in `HI-MaNGA_base.fits`, while the counter rotating galaxy 
+data from [Zhou et. al (2022)](https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.5081Z/abstract) can be found in
+`sampgal_misalign_final.fits`. Using the [TOPCAT software](https://www.star.bris.ac.uk/~mbt/topcat/), I matched these tables to each other to
+create `HI-MaNGA_with-MA.fits`, which combines the two, and is the file that will actually be used to analyze the data.
+This file can be found in the `Data` sub-directory, along with `.npy` files of the results of running certain statistical
+methods on the data later in the notebook to avoid redudantly running notebook cells with excessively long runtimes. 
 
 A previous rendition of this work is found in the Jupyter Notebook titled `mass-fraction-graphing.ipynb`, but I am
 currently in the process of redoing this work in the updated `HI-MaNGA_MisalignmentAndDeficiency.ipynb`
