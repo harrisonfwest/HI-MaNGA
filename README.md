@@ -16,6 +16,7 @@ from astropy.table import Table
 from matplotlib.colors import LogNorm
 import scipy
 from scipy import stats
+from survival_analysis import survival, ats_fit, kaplan_meier
 
 # Set up matplotlib
 import matplotlib.pyplot as plt
