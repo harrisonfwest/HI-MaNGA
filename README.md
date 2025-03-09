@@ -2,8 +2,9 @@
 
 This repository houses my work with Haverford College Professor of Physics and Astronomy Karen Masters investigating a 
 correlation between galaxy misalignment and HI deficiency. Galaxy misalignment describes a difference in the position 
-angles of a galaxy's stellar and gas discs, and HI deficiency describes how much less non-ionized ('cold') hydrogen gas 
-is present in a galaxy compared to the expected (average) amount at the galaxy's given stellar mass.
+angles of a galaxy's stellar and gas discs, which can range from 0 degrees (well-aligned) to 180 degrees (counter-rotating), 
+and HI deficiency describes how much less non-ionized ('cold') hydrogen gas is present in a galaxy compared to the 
+expected (average) amount at the galaxy's given stellar mass.
 
 A running to-do list of tasks I hope to accomplish can be found in `TODO.md`.
 
