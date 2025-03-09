@@ -4,8 +4,8 @@ This repository houses my work with Haverford College Professor of Physics and A
 correlation between galaxy misalignment and HI concentration. Galaxy misalignment describes a difference in the position 
 angles of a galaxy's stellar and gas discs, which can range from 0 degrees (well-aligned) to 180 degrees (counter-rotating), 
 and HI concentration describes how much non-ionized ('cold') hydrogen gas is present in a galaxy compared to the 
-expected (average) amount at the galaxy's given stellar mass. HI mass is particularly easy to detect in galaxies due to
-its
+expected (average) amount at the galaxy's given stellar mass. HI mass is particularly easy to detect due to its distinct
+21 cm spectral emission line. 
 
 A running to-do list of tasks I hope to accomplish can be found in `TODO.md`.
 
