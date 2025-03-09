@@ -18,8 +18,8 @@ we only have ~300 misaligned galaxies. Furthermore, more than half of the well-a
 are upper limits, or non-detections indicating the upper bound of the galaxy's potential HI concentration, and about
 two thirds of the misaligned galaxies' HI mass concentrations are upper limits. This means that it is difficult to
 make decisive claims about the behavior of these galaxies, since our already small data set is affected by significant
-statistical issues. The implementation of survival analysis and other statistical methods are used to attempt to remedy
-this, though there are elements of this that I am yet to complete as of March 9, 2025 (the time of writing). 
+statistical issues. Survival analysis and other statistical methods are used to attempt to remedy this, though there 
+are elements of this that I am yet to complete as of the time of writing (March 9, 2025). 
 
 I have compiled my work on this project into the Jupyter notebook titled `HI-MaNGA_MisalignmentAndDeficiency.ipynb`.
 This notebook provides a step-by-step description of my work.
