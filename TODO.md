@@ -11,3 +11,4 @@ potential way to prevent bar formation (as far as I understand him anyway). Stri
 out quickly with. If you match with the “friendly” version of GZ:DESI here that would be interesting, and maybe try to
 compare histograms of the strong and weak bar fraction vote for the MA and aligned samples. Seems just worth a quick
 check. Might not be anything interesting. Sellwood’s galaxies are usually very idealized.
+6. "Punchy" graphics to refine: Gas Deficiency vs. Stellar mass for each population (WA/MA); CDF of deficiencies
