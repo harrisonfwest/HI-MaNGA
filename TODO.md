@@ -12,3 +12,5 @@ compare histograms of the strong and weak bar fraction vote for the MA and align
 check. Might not be anything interesting. Sellwood’s galaxies are usually very idealized.
 5. "Punchy" graphics to refine: Gas Deficiency vs. Stellar mass for each population (Likely make one for WA, one for MA,
 or make sure the different populations are clear enough); CDF of deficiencies from Kaplan-Meier
+6. HI-Massfraction-stellarmass-plot from github
+7. 
