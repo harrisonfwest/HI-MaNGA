@@ -13,4 +13,4 @@ check. Might not be anything interesting. Sellwood’s galaxies are usually very
 5. "Punchy" graphics to refine: Gas Deficiency vs. Stellar mass for each population (Likely make one for WA, one for MA,
 or make sure the different populations are clear enough); CDF of deficiencies from Kaplan-Meier
 6. HI-Massfraction-stellarmass-plot from github
-7. 
+7. plt.axhline(); plt.axvline()
