@@ -19,3 +19,4 @@ check. Might not be anything interesting. Sellwood’s galaxies are usually very
    HIrich = Mfrac - fpred
    Then run CDF code on HIrich including upper limits. 
 7. Research note overleaf
+8. new data file
