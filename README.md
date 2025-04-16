@@ -26,12 +26,11 @@ the processes used.
 
 A running list of my short-term tasks on the project can be found in `TODO.md`.
 
-The original fits image of the HI-MaNGA data is in `HI-MaNGA_base.fits`, while the counter rotating galaxy 
-data from [Zhou et. al (2022)](https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.5081Z/abstract) can be found in
-`sampgal_misalign_final.fits`. Using the [TOPCAT software](https://www.star.bris.ac.uk/~mbt/topcat/), I combined these
-tables by matching their on `MaNGA ID` columns to create `HI-MaNGA_with-MA.fits`, which is the file that is actually 
-used to analyze the data. All of these files can be found in the `Data` subdirectory, along with `.npy` files from the
-notebook which were created to avoid re-running unnecessary cells with excessively long runtimes.
+The counter rotating galaxy data is from [Zhou et. al (2022)](https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.5081Z/abstract). Using the [TOPCAT software](https://www.star.bris.ac.uk/~mbt/topcat/), I combined the
+misaligned galaxies from the counter-rotating data, the original HI-MaNGA DR4 data, and [Pipe3D](https://www.sdss4.org/dr17/manga/manga-data/manga-pipe3d-value-added-catalog/)
+data files, matching their MaNGA IDs. This generated the file I've named `HI-withMA-withPIPE3D.fits`, which can be found
+in the `Data` subdirectory, along with `.npy` files from the notebook which were created to avoid re-running 
+unnecessary cells with excessively long runtimes.
 
 The survival analysis code used (`survival_analysis.py`) is from [the repository of David Stark](https://github.com/dvstark/survival) 
 at the Space Telescope Science Institute (STScI). My repository contains an example of this code's usage: the code
